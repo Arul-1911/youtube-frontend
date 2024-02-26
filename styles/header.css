@@ -9,10 +9,10 @@
    right: 0;
    left: 0;
    background-color: white;
-   z-index: 5;
    border-bottom-width: 1px;
    border-bottom-style:solid ;
    border-bottom-color: rgb(222, 222, 222);
+   z-index: 100;
 }
 
 .left-section{
@@ -103,6 +103,22 @@
 
 .notification-icon{
    height: 24px;
+}
+
+.notification-icon-container{
+   position: relative;
+}
+
+.notifications-count{
+   position: absolute;
+   top: -1px;
+   right: -3px;
+   background-color: red;
+   color: white;
+   font-family: Roboto, Arial;
+   font-size: 10px;
+   padding: 2px 5px;
+   border-radius: 10px;
 }
 
 .current-user-picture{
